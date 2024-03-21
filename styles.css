@@ -88,3 +88,7 @@ ul > li > ol > li > ol > li {
     list-style-type: lower-alpha;
 }
 
+.text-allign{
+text-allign: right;
+}
+
