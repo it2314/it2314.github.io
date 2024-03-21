@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Příprava na praktickou prověrku</h1>
+    
+    <ul>
+        <li><a href="#textoveupravy">Textové upravy</a></li>
+        <li><a href="#tabulka">Tabulka</a></li>
+    </ul>
+    
+    <h2 id="textoveupravy">Textové úpravy</h2>
+    <h3>Adresy používané na internetu</h3>
+    <p>something about the stuff above</p>
+    
+    <h3>Seznam významných termínů a zkratek</h3>
+    
+    <dl>
+        <dt><abbr title="Hyper Text Markup Language">HTML</abbr></dt>
+        <dd>HTML je jazyk pro vytváření webových stránek</dd>
+        
+        <dt><abbr title="Hyper Text Transfer Protocol">HTTP</abbr></dt>
+        <dd>HTTP je internetový protokol používaný k přenosu souborů mezi serverem a tzv. klientem, kterým bývá nejčastěji webový prohlížeč</dd>
+        
+        <dt>Validátor</dt>
+        <dd>Validátor je automatický nástroj umožňující ověřit validitu dokumentu, tj. najít případné chyby v zápisu kódu jeho porovnáním s platnými standardy. Kontrola stránky validátorem je jednoduchou cestou, jak se vyhnout problémům se zobrazením, zvýšit rychlost zobrazování stránky v prohlížeči atd.</dd>
+        
+        <dt>Server</dt>
+        <dd>Server je v informatice obecné označení pro počítač, který poskytuje nějaké služby, nebo počítačový program, který tyto služby realizuje. V unixových systémech je případně označován jako démon (anglicky daemon), v Microsoft Windows potom jako služba (anglicky service).</dd>
+        
+    <h2 id="tabulka">Tabulka</h2>
+    <table>
+        
+        <tr>
+            <th rowspan="2" class="padding">Nečíslovaný seznam</th>
+            <th colspan="2" class="padding">Prvky stránky</th>
+            <th rowspan="2" class="padding">Obrázek (šířka 200px)</th>
+        </tr>
+        
+        
+        <tr>
+            <th class="padding">Značky</th>
+            <th class="padding">Entity</th>
+        </tr>
+        
+        <tr>
+            <td rowspan="2">
+                <ul>
+                    <li>IP Adresa</li>
+                    <li>Jmenná adresa</li>
+                    <li>URL</li>
+                </ul>
+            </td>
+            <td class="padding">H<sub>2</sub>O</td>
+            <td class="padding">&amp;</td>
+            <td rowspan="2"><img src="webimages/sadimage.jpg" alt="Image of a depressed man or something" style="width:200px;height:auto"></td>
+        </tr>
 
+        <tr>
+            <td class="padding">c = a<sup>2</sup> + b<sup>2</sup></td>
+            <td class="padding">&copy;</td>
+        </tr>
+
+        <tfoot>
+            <td class="padding">Odkaz</td>
+            <td colspan="3" class="padding"><a href="www.w3c.org">www.w3c.org</a></td>
+        </tfoot>
+        
+        
+    </table>
+        <hr>
+    <footer><p>&copy; <mark>Honza Jež</mark>, <b>IT1</b>, <abbr title="Střední škola průmyslová a umělecká">SŠPU</abbr> Opava</p></footer>
+    </dl>
+</body>
+</html>
